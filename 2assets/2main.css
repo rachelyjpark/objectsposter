@@ -1,0 +1,87 @@
+body {
+background-image: url(imgs/background2.png);
+background-size: cover;
+position: fixed;
+}
+
+.bottle {
+	position: relative;
+	left: 600px;
+	top: 150px;
+}
+.seju {
+	position: relative;
+	left: 360px;
+	top: -443px;
+}
+.seju:hover {
+	transform: rotate(60deg);
+	cursor: pointer;
+}
+.meat {
+	position: relative;
+	left: 500px;
+	top: -460px;
+	filter: blur(4px);
+}
+
+.meat:hover {
+  filter: none;
+  cursor: pointer;
+
+}
+
+.soup {
+		position: relative;
+	left: 1000px;
+	top: -1060px;
+	filter: blur(4px);
+}
+
+.soup:hover {
+  filter: none;
+  cursor: pointer;
+
+}
+.sushi {
+		position: relative;
+	left: 0px;
+	top: -1360px;
+	filter: blur(4px);
+}
+
+.sushi:hover {
+  filter: none;
+  cursor: pointer;
+
+}
+.rice {
+		position: relative;
+	left: 905px;
+	top: -2050px;
+	filter: blur(4px);
+}
+
+.rice:hover {
+  filter: none;
+  cursor: pointer;
+
+}
+.side {
+	position: relative;
+	left: 100px;
+	top: -2310px;
+	filter: blur(4px);
+}
+
+.side:hover {
+  filter: none;
+  cursor: pointer;
+
+}
+.icon {
+	position: relative;
+	left: 5px;
+	top: 5px;
+}
+

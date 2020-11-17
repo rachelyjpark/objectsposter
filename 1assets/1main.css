@@ -1,0 +1,1220 @@
+body {
+  background: #d4c8b4;
+position: static;
+}
+
+
+
+.box1 {
+    width: 18%;
+  height: 20%;
+  border-radius: 60% 60% 80% 80% / 80% 80% 60% 60%;
+  background-color: #cbc3b4;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+   animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:#cbc3b4; }
+  25%  {background-color:#d6cec2; }
+  50%  {background-color:#cbc3b4; }
+  75%  {background-color:#786c54; }
+  100% {background-color:#5a513f;}
+}
+
+}
+
+
+.box2 {
+  width: 10%;
+  height: 14%;
+  border-radius: 40% 60% 50% 70% / 80% 30% 70% 40%;
+  background-color: #cbc3b4;
+  position: absolute;
+  top: 45%;
+  left: 70%;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:#cbc3b4; }
+  25%  {background-color:#d6cec2; }
+  50%  {background-color:#cbc3b4; }
+  75%  {background-color:#786c54; }
+  100% {background-color:#5a513f;}
+}
+
+
+.box3 {
+  width: 5%;
+  height: 10%;
+    transform: rotate(-30deg);
+  border-radius: 80% 40% 50% 30% / 40% 60% 30% 70%;
+  background-color: #5a513f;
+  position: absolute;
+  left: 30%;
+  top: 80%;
+  animation-name: example2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example2 {
+  0%   {background-color:#5a513f;}
+  25%  {background-color:#cbc3b4; }
+  50%  {background-color:#786c54; }
+  75%  {background-color:#d6cec2; }
+  100% {background-color:#d6cec2; }
+
+}
+
+.box4 {
+width: 10%;
+height: 10%;
+  transform: rotate(-40deg);
+  border-radius: 60% 40% 60% 30% / 50% 60% 60% 70%;
+  background-color: #d6cec2;
+  position: absolute;
+  left: 45%;
+  top: 30%;
+ animation-name: example3;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example3 {
+  0%   {background-color:#d6cec2;}
+  25%  {background-color:#868076; }
+  50%  {background-color:#a5977d; }
+  75%  {background-color:#736c61; }
+  100% {background-color:#ece9e3; }
+}
+
+.box5 {
+width: 8%;
+height: 10%;
+  transform: rotate(40deg);
+  border-radius: 60% 40% 20% 30% / 50% 60% 60% 70%;
+  background-color: #5a513f;
+  position: absolute;
+  left: 60%;
+  top: 10%;
+ animation-name: example4;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example4 {
+  0%   {background-color:#5a513f;}
+  25%  {background-color:#cec1ac; }
+  50%  {background-color:#f3eada; }
+  75%  {background-color:#a79f93; }
+  100% {background-color:#ece9e3; }
+}
+
+
+.box6 {
+width: 8%;
+height: 10%;
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #cbc3b4;
+  position: absolute;
+  left: 10%;
+  top: 40%;
+ animation-name: example5;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example5 {
+  0%   {background-color:#cbc3b4;}
+  25%  {background-color:#82796a; }
+  50%  {background-color:#cec6b7; }
+  75%  {background-color:#b7ac9c; }
+  100% {background-color:#ece9e3; }
+}
+.box7 {
+width: 15%;
+height: 15%;
+transform: rotate(-40deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #5a513f;
+  position: absolute;
+  left: 70%;
+  top: 80%;
+ animation-name: example6;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example6 {
+  0%   {background-color:#5a513f;}
+  25%  {background-color:#dad7d1; }
+  50%  {background-color:#736e63; }
+  75%  {background-color:#b7ac9c; }
+  100% {background-color:#a5a199; }
+}
+.box8 {
+width: 7%;
+height: 8%;
+transform: rotate(-70deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #998566;
+  position: absolute;
+  left: 55%;
+  top: 75%;
+ animation-name: example7;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example7 {
+  0%   {background-color:#998566;}
+  25%  {background-color:#615a4e; }
+  50%  {background-color:#d4cfc3; }
+  75%  {background-color:#a59784; }
+  100% {background-color:#a5a199; }
+}
+.box9 {
+width: 12%;
+height: 12%;
+transform: rotate(50deg);
+  border-radius: 30% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #998566;
+  position: absolute;
+  left: 5%;
+  top: 15%;
+ animation-name: example8;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example8 {
+  0%   {background-color:#998566;}
+  25%  {background-color:#615a4e; }
+  50%  {background-color:#d4cfc3; }
+  75%  {background-color:#a59784; }
+  100% {background-color:#a5a199; }
+}
+
+.box10 {
+width: 10%;
+height: 12%;
+transform: rotate(-70deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #e0dad1;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+ animation-name: example9;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example9 {
+  0%   {background-color:#e0dad1;}
+  25%  {background-color:#777063; }
+  50%  {background-color:#d4cfc3; }
+  75%  {background-color:#a59784; }
+  100% {background-color:#d2cbbd; }
+}
+.box11 {
+width: 3%;
+height: 5%;
+transform: rotate(-70deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #5a513f;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+    animation-name: example10;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example10 {
+  0%   {background-color:#5a513f;}
+  25%  {background-color:#cbc3b4; }
+  50%  {background-color:#786c54; }
+  75%  {background-color:#d6cec2; }
+  100% {background-color:#d6cec2; }
+
+
+}
+
+
+.box12 {
+  width: 4%;
+height: 6%;
+transform: rotate(-70deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #998566;
+  position: absolute;
+  left: 15%;
+  top: 55%;
+    animation-name: example11;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example11 {
+  0%   {background-color:#998566;}
+  25%  {background-color:#675f51; }
+  50%  {background-color:#a79778; }
+  75%  {background-color:#a59b8e; }
+  100% {background-color:#d6cec2; }
+
+}
+
+
+.box13 {
+  width: 5%;
+height: 6%;
+transform: rotate(-70deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #5a513f;
+  position: absolute;
+  left: 35%;
+  top: 65%;
+      animation-name: example12;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example12 {
+  0%   {background-color:#5a513f;}
+  25%  {background-color:#c3bfb8; }
+  50%  {background-color:#a79778; }
+  75%  {background-color:#867a6b; }
+  100% {background-color:#464036; }
+}
+
+.box14 {
+width: 4%;
+height: 6%;
+transform: rotate(-70deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #e0dad1;
+  position: absolute;
+  left: 70%;
+  top: 30%;
+  animation-name: example13;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example13 {
+  0%   {background-color:#e0dad1;}
+  25%  {background-color:#847a6a; }
+  50%  {background-color:#c3bdb0; }
+  75%  {background-color:#867a6b; }
+  100% {background-color:#c1b6a4; }
+}
+
+.box15 {
+width: 3%;
+height: 2%;
+transform: rotate(-20deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #998566;
+  position: absolute;
+  left: 80%;
+  top: 15%;
+    animation-name: example14;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example14 {
+  0%   {background-color:#998566;}
+  25%  {background-color:#5a513f; }
+  50%  {background-color:#c3bdb0; }
+  75%  {background-color:#cec1ac; }
+  100% {background-color:#f3eada; }
+}
+
+.box16 {
+width: 4%;
+height: 3%;
+transform: rotate(-70deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #5a513f;
+  position: absolute;
+  left: 20%;
+  top: 15%;
+      animation-name: example15;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example15 {
+  0%   {background-color:#5a513f;}
+  25%  {background-color:#82796a; }
+  50%  {background-color:#ece9e3; }
+  75%  {background-color:#cec1ac; }
+  100% {background-color:#82796a; }
+}
+
+.box17 {
+width: 4%;
+height: 3%;
+transform: rotate(-70deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #998566;
+  position: absolute;
+  left: 90%;
+  top: 45%;
+      animation-name: example16;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example16 {
+  0%   {background-color:#998566;}
+  25%  {background-color:#cac4b8; }
+  50%  {background-color:#d4d1c9; }
+  75%  {background-color:#b3a58f; }
+  100% {background-color:#655e53; }
+}
+
+.box18 {
+width: 4%;
+height: 3%;
+transform: rotate(30deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #5a513f;
+  position: absolute;
+  left: 85%;
+  top: 65%;
+      animation-name: example17;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example17 {
+  0%   {background-color:#5a513f;}
+  25%  {background-color:#baaf9b; }
+  50%  {background-color:#c3bdb0; }
+  75%  {background-color:#6a5d48; }
+  100% {background-color:#eae6dc; }
+}
+
+.box19 {
+  width: 5%;
+height: 4%;
+transform: rotate(50deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #e0dad1;
+  position: absolute;
+  left: 45%;
+  top: 93%;
+      animation-name: example18;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example18 {
+  0%   {background-color:#ece9e3;}
+  25%  {background-color:#736c61; }
+  50%  {background-color:#c3bdb0; }
+  75%  {background-color:#998566; }
+  100% {background-color:#d6cec2; }
+}
+
+.box20 {
+width: 8%;
+height: 9%;
+transform: rotate(-50deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #d6cec2;
+  position: absolute;
+  left: 45%;
+  top: 5%;
+      animation-name: example19;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example19 {
+  0%   {background-color:#d6cec2;}
+  25%  {background-color:#ece9e3; }
+  50%  {background-color:#786c54; }
+  75%  {background-color:#baaf9b; }
+  100% {background-color:#dad7d1; }
+}
+
+.box21 {
+width: 6%;
+height: 3%;
+transform: rotate(30deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #e0dad1;
+  position: absolute;
+  left: 45%;
+  top: 70%;
+      animation-name: example20;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example20 {
+  0%   {background-color:#e0dad1;}
+  25%  {background-color:#baaf9b; }
+  50%  {background-color:#ac9d86; }
+  75%  {background-color:#82796a; }
+  100% {background-color:#786c54; }
+}
+
+.box22 {
+  width: 3%;
+height: 4%;
+transform: rotate(30deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #e0dad1;
+  position: absolute;
+  left: 95%;
+  top: 20%;
+      animation-name: example21;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example21 {
+  0%   {background-color:#e0dad1;}
+  25%  {background-color:#998566; }
+  50%  {background-color:#cec6b7; }
+  75%  {background-color:#ece9e3; }
+  100% {background-color:#a59784; }
+}
+
+.box23{
+  width: 4%;
+height: 4%;
+transform: rotate(-30deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #6a5d48;
+  position: absolute;
+  left: 35%;
+  top: 10%;
+      animation-name: example22;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example22 {
+  0%   {background-color:#786c54;}
+  25%  {background-color:#ac9d86; }
+  50%  {background-color:#6a5d48; }
+  75%  {background-color:#cec1ac; }
+  100% {background-color:#f3eada; }
+}
+
+.box24 {
+  width: 6%;
+height: 8%;
+transform: rotate(10deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #6a5d48;
+  position: absolute;
+  left: 85%;
+  top: 30%;
+      animation-name: example23;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example23 {
+  0%   {background-color:#615a4e;}
+  25%  {background-color:#998566; }
+  50%  {background-color:#ece9e3; }
+  75%  {background-color:#a59784; }
+  100% {background-color:#d4cfc3; }
+}
+
+.box25{
+width: 5%;
+height: 4%;
+transform: rotate(70deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #e0dad1;
+  position: absolute;
+  left: 87%;
+  top: 3%;
+      animation-name: example24;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example24 {
+  0%   {background-color:#e2dbd0;}
+  25%  {background-color:#7d7563; }
+  50%  {background-color:#a09680; }
+  75%  {background-color:#cec1ac; }
+  100% {background-color:#cec5b6; }
+}
+
+.box26{
+width: 2%;
+height: 2%;
+transform: rotate(-40deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #e0dad1;
+  position: absolute;
+  left: 83%;
+  top: 20%;
+      animation-name: example25;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example25 {
+  0%   {background-color:#e0dad1;}
+  25%  {background-color:#5a513f; }
+  50%  {background-color:#e6decc; }
+  75%  {background-color:#a29784; }
+  100% {background-color:#6a5d48; }
+}
+
+.box27 {
+  width: 5%;
+height: 5%;
+transform: rotate(80deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #e0dad1;
+  position: absolute;
+  left: 95%;
+  top: 90%;
+      animation-name: example26;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example26 {
+  0%   {background-color:#e0dad1;}
+  25%  {background-color:#a59784; }
+  50%  {background-color:#6f695d; }
+  75%  {background-color:#f7f2eb; }
+  100% {background-color:#888072; }
+}
+
+.box28 {
+width: 2%;
+height: 5%;
+transform: rotate(-90deg);
+  border-radius: 50% 50% 70% 60% / 50% 50% 60% 70%;
+  background-color: #e0dad1;
+  position: absolute;
+  left: 3%;
+  top: 10%;
+      animation-name: example27;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example27 {
+  0%   {background-color:#e0dad1;}
+  25%  {background-color:#b7ac9c; }
+  50%  {background-color:#82796a; }
+  75%  {background-color:#cec1ac; }
+  100% {background-color:#786c54; }
+}
+
+.box29 {
+width: 8%;
+height: 9%;
+transform: rotate(60deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #e0dad1;
+  position: absolute;
+  left: 4%;
+  top: 50%;
+      animation-name: example28;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example28 {
+  0%   {background-color:#a9987e;}
+  25%  {background-color:#7d776b; }
+  50%  {background-color:#baaf9b; }
+  75%  {background-color:#6d6354; }
+  100% {background-color:#f3eada; }
+}
+
+.box30{
+width: 5%;
+height: 5%;
+transform: rotate(30deg);
+  border-radius: 50% 50% 30% 60% / 50% 50% 60% 70%;
+  background-color: #ac9d86;
+  position: absolute;
+  left: 18%;
+  top: 90%; 
+      animation-name: example29;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example29 {
+  0%   {background-color:#bbb5ab;}
+  25%  {background-color:#5a513f; }
+  50%  {background-color:#908878; }
+  75%  {background-color:#82796a; }
+  100% {background-color:#ece9e3; }
+}
+
+.box31{
+  width: 6%;
+height: 5%;
+transform: rotate(-20deg);
+  border-radius: 80% 50% 50% 60% / 50% 50% 50% 70%;
+  background-color: #ac9d86;
+  position: absolute;
+  left: 96%;
+  top: 60%;
+      animation-name: example30;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example30 {
+  0%   {background-color:#998566;}
+  25%  {background-color:#5a513f; }
+  50%  {background-color:#c3bdb0; }
+  75%  {background-color:#cec1ac; }
+  100% {background-color:#f3eada; }
+}
+
+.box32 {
+  width: 3%;
+height: 2%;
+transform: rotate(30deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #e0dad1;
+  position: absolute;
+  left: 24%;
+  top: 70%;
+      animation-name: example31;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example31 {
+  0%   {background-color:#e0dad1;}
+  25%  {background-color:#a59784; }
+  50%  {background-color:#736c61; }
+  75%  {background-color:#a5977d; }
+  100% {background-color:#a5a199; }
+}
+
+.box33 {
+  width: 8%;
+height: 9%;
+transform: rotate(-80deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #6a5d48;
+  position: absolute;
+  left: 43%;
+  top: 46%;
+      animation-name: example32;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example32 {
+  0%   {background-color:#5a513f;}
+  25%  {background-color:#cbc3b4; }
+  50%  {background-color:#998566; }
+  75%  {background-color:#6a5d48; }
+  100% {background-color:#ece9e3; }
+}
+
+
+.box34 {
+  width: 2%;
+height: 3%;
+transform: rotate(20deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #6a5d48;
+  position: absolute;
+  left: 5%;
+  top: 34%;
+      animation-name: example33;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example33 {
+  0%   {background-color:#d0c6b7;}
+  25%  {background-color:#b7ac9c; }
+  50%  {background-color:#615a4e; }
+  75%  {background-color:#ece9e3; }
+  100% {background-color:#998566; }
+}
+
+
+.box35 {
+  width: 1%;
+height: 2%;
+transform: rotate(-46deg);
+  border-radius: 50% 50% 40% 40% / 50% 50% 70% 70%;
+  background-color: #6a5d48;
+  position: absolute;
+  left: 54%;
+  top: 20%;
+      animation-name: example34;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example34 {
+  0%   {background-color:#615a4e;}
+  25%  {background-color:#ece9e3; }
+  50%  {background-color:#ac9d86; }
+  75%  {background-color:#cec6b7; }
+  100% {background-color:#dad7d1; }
+}
+
+
+.box36 {
+  width: 6%;
+height: 8%;
+transform: rotate(-80deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #6a5d48;
+  position: absolute;
+  left: 53%;
+  top: 46%;
+       animation-name: example35;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example35 {
+  0%   {background-color:#b9b5ac;}
+  25%  {background-color:#eae6dd; }
+  50%  {background-color:#696258; }
+  75%  {background-color:#ccbfac; }
+  100% {background-color:#aba291; }
+
+}
+
+
+.box37 {
+  width: 4%;
+height: 6%;
+transform: rotate(20deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #6a5d48;
+  position: absolute;
+  left: 55%;
+  top: 90%;
+       animation-name: example36;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example36 {
+  0%   {background-color:#615a4e;}
+  25%  {background-color:#ece9e3; }
+  50%  {background-color:#a79778; }
+  75%  {background-color:#6a5d48; }
+  100% {background-color:#ece9e3; }
+}
+
+
+.box38 {
+  width: 6%;
+height: 4%;
+transform: rotate(-20deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #e0dad1;
+  position: absolute;
+  left: 20%;
+  top: 2%;
+       animation-name: example37;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example37 {
+  0%   {background-color:#ece9e3;}
+  25%  {background-color:#cbc3b4; }
+  50%  {background-color:#998566; }
+  75%  {background-color:#6a5d48; }
+  100% {background-color:#a5977d; }
+}
+
+.box39 {
+  width: 6%;
+height: 4%;
+transform: rotate(-20deg);
+  border-radius: 50% 50% 50% 50% / 70% 70% 30% 30%;
+  background-color: #6a5d48;
+  position: absolute;
+  left: 60%;
+  top: 34%;
+       animation-name: example38;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example38 {
+  0%   {background-color:#f3eada;}
+  25%  {background-color:#baaf9b; }
+  50%  {background-color:#6a5d48; }
+  75%  {background-color:#cec1ac; }
+  100% {background-color:#a5977d; }
+}
+
+.box40 {
+  width: 5%;
+height: 3%;
+transform: rotate(-46deg);
+  border-radius: 50% 50% 50% 50% / 50% 50% 70% 70%;
+  background-color: #6a5d48;
+  position: absolute;
+  left: 44%;
+  top: 20%;
+       animation-name: example39;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example39 {
+  0%   {background-color:#6a5d48;}
+  25%  {background-color:#f3eada; }
+  50%  {background-color:#998566; }
+  75%  {background-color:#ece9e3; }
+  100% {background-color:#a79778; }
+}
+
+.box41 {
+    width: 7%;
+height: 5%;
+transform: rotate(-26deg);
+  border-radius: 70% 70% 30% 30% / 80% 70% 40% 40%;
+  background-color: #6a5d48;
+  position: absolute;
+  left: 74%;
+  top: 2%;
+       animation-name: example40;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example40 {
+  0%   {background-color:#5a513f;}
+  25%  {background-color:#cbc3b4; }
+  50%  {background-color:#f3eada; }
+  75%  {background-color:#6a5d48; }
+  100% {background-color:#998566; }
+}
+
+
+.box42 {
+  width: 3%;
+height: 2%;
+transform: rotate(-80deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #a59886;
+  position: absolute;
+  left: 63%;
+  top: 26%;
+       animation-name: example41;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example41 {
+  0%   {background-color:#a79778;}
+  25%  {background-color:#615a4e; }
+  50%  {background-color:#ece9e3; }
+  75%  {background-color:#ac9d86; }
+  100% {background-color:#cec6b7; }
+}
+
+
+.box43 {
+  width: 5%;
+height: 3%;
+transform: rotate(20deg);
+  border-radius: 50% 50% 30% 70% / 50% 50% 90% 90%;
+  background-color: #d6cdc0;
+  position: absolute;
+  left: 65%;
+  top: 67%;
+       animation-name: example42;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example42 {
+  0%   {background-color:#f3eada;}
+  25%  {background-color:#998566; }
+  50%  {background-color:#ece9e3; }
+  75%  {background-color:#6a5d48; }
+  100% {background-color:#baaf9b; }
+}
+
+.box44 {
+  width: 2%;
+height: 4%;
+transform: rotate(-20deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #e8e2d9;
+  position: absolute;
+  left: 60%;
+  top: 55%;
+       animation-name: example43;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example43 {
+  0%   {background-color:#ece9e3;}
+  25%  {background-color:#baaf9b; }
+  50%  {background-color:#e0dad1; }
+  75%  {background-color:#a5a199; }
+  100% {background-color:#5a513f; }
+}
+
+.box45 {
+  width: 6%;
+height: 8%;
+transform: rotate(-80deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #6a5d48;
+  position: absolute;
+  left: 3%;
+  top: 66%;
+       animation-name: example44;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example44 {
+  0%   {background-color:#82796a;}
+  25%  {background-color:#cbc3b4; }
+  50%  {background-color:#cec1ac; }
+  75%  {background-color:#b7ac9c; }
+  100% {background-color:#ece9e3; }
+}
+
+.box46 {
+  width: 12%;
+height: 10%;
+transform: rotate(20deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #ab9c84;
+  position: absolute;
+  left: 35%;
+  top: 75%;
+  animation-name: example45;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example45 {
+  0%   {background-color:#baaf9b;}
+  25%  {background-color:#786c54; }
+  50%  {background-color:#ece9e3; }
+  75%  {background-color:#a5977d; }
+  100% {background-color:#d4cfc3; }
+}
+
+
+.box47 {
+  width: 8%;
+height: 6%;
+transform: rotate(-20deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #d0c5b5;
+  position: absolute;
+  left: 25%;
+  top: 60%;
+       animation-name: example46;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example46 {
+  0%   {background-color:#f3eada;}
+  25%  {background-color:#998566; }
+  50%  {background-color:#dad7d1; }
+  75%  {background-color:#ac9d86; }
+  100% {background-color:#786c54; }
+}
+
+.box48 {
+  width: 4%;
+height: 3%;
+transform: rotate(-20deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #d8cdbc;
+  position: absolute;
+  left: 78%;
+  top: 34%;
+       animation-name: example47;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example47 {
+  0%   {background-color:#e0dad1;}
+  25%  {background-color:#a5977d; }
+  50%  {background-color:#c3bdb0; }
+  75%  {background-color:#786c54; }
+  100% {background-color:#ac9d86; }
+}
+
+
+.box49 {
+  width: 6%;
+height: 6%;
+transform: rotate(-46deg);
+  border-radius: 50% 50% 40% 40% / 50% 50% 70% 70%;
+  background-color: #968b79;
+  position: absolute;
+  left: 34%;
+  top: 50%;
+       animation-name: example48;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example48 {
+  0%   {background-color:#736c61;}
+  25%  {background-color:#e0dad1; }
+  50%  {background-color:#b7ac9c; }
+  75%  {background-color:#736c61; }
+  100% {background-color:#cec6b7; }
+}
+
+
+.box50 {
+  width: 5%;
+height: 6%;
+transform: rotate(-30deg);
+  border-radius: 30% 70% 60% 60% / 50% 50% 60% 70%;
+  background-color: #cabdaa;
+  position: absolute;
+  left: 73%;
+  top: 66%;
+       animation-name: example49;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example49 {
+  0%   {background-color:#c1b6a0;}
+  25%  {background-color:#ada18a; }
+  50%  {background-color:#989288; }
+  75%  {background-color:#80776a; }
+  100% {background-color:#d0c7b6; }
+}
+
+
+.box51 {
+  width: 8%;
+height: 10%;
+transform: rotate(50deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #6a5d48;
+  position: absolute;
+  left: 85%;
+  top: 75%;
+       animation-name: example50;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example50 {
+  0%   {background-color:#aba089;}
+  25%  {background-color:#a09175; }
+  50%  {background-color:#968e82; }
+  75%  {background-color:#615a4e; }
+  100% {background-color:#e6e2d8; }
+}
+
+
+
+.box52 {
+  width: 2%;
+height: 4%;
+transform: rotate(-20deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #a59987;
+  position: absolute;
+  left: 40%;
+  top: 2%;
+       animation-name: example51;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example51 {
+  0%   {background-color:#a79c87;}
+  25%  {background-color:#7d7463; }
+  50%  {background-color:#dad2c6; }
+  75%  {background-color:#90897d; }
+  100% {background-color:#a09a8e; }
+}
+
+.box53 {
+  width: 3%;
+height: 4%;
+transform: rotate(0deg);
+  border-radius: 50% 50% 60% 60% / 50% 50% 60% 70%;
+  background-color: #8e7c5e;
+  position: absolute;
+  left: 60%;
+  top: 2%;
+       animation-name: example52;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example52 {
+  0%   {background-color:#afa590;}
+  25%  {background-color:#928874; }
+  50%  {background-color:#c5beb2; }
+  75%  {background-color:#716b60; }
+  100% {background-color:#d6d0c4; }
+}
+
+.box54{ 
+    width: 19%;
+  height: 18%;
+  border-radius: 80% 80% 50% 50% / 90% 90% 60% 60%;
+  background-color: #a59987;
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 45%;
+  left: 65%;
+   animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:#afa590;}
+  25%  {background-color:#928874; }
+  50%  {background-color:#c5beb2; }
+  75%  {background-color:#716b60; }
+  100% {background-color:#d6d0c4; }
+} 
+
+.icon {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  z-index: 2;
+}
+
